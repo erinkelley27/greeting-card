@@ -10,6 +10,8 @@ app.set('port', process.env.PORT || 3000)
 app.use(bodyparser.json())
 app.use(cors())
 
+app.use(require('./routes/routes.js'))
+
 app.listen(app.get('port'), () => {
   console.log('Server listening on port ' + app.get('port'))
 })
