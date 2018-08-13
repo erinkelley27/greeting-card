@@ -1,0 +1,27 @@
+[
+    {
+        "to" : "Lawrence",
+        "from" : "Erin",
+        "message" : "Chuck E. Cheese rules!"
+    },
+    {
+        "to" : "Steph",
+        "from" : "Erin",
+        "message" : "Let's go to HH"
+    },
+    {
+        "to" : "Josh",
+        "from" : "Erin",
+        "message" : "Gingers are lame."
+    },
+    {
+        "to" : "Angelica",
+        "from" : "Erin",
+        "message" : "Hello there!"
+    },
+    {
+        "to" : "Tasha",
+        "from" : "Erin",
+        "message" : "Tell me about Anime"
+    }
+]
