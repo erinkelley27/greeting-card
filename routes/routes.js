@@ -5,6 +5,8 @@ const controller = require('../controllers/controller.js')
 // Read
 router.get('/', controller.index)
 router.get('/new', controller.new)
+router.get('/:id', controller.show)
+
 // Create
 router.post('/', controller.create)
 

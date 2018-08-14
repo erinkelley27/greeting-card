@@ -2,9 +2,8 @@ const GreetingCard = require('../db/model.js')
 
 module.exports = {
   index: (req, res) => {
-    GreetingCard.find({})
+    GreetingCard.find()
       .then((test) => console.log(test))
-    console.log('index is working')
   },
   new: (req, res) => {
     console.log('new')
